@@ -1,0 +1,15 @@
+/*  Question :1 finding the missing number from a given array of integers like 0,1,3 so the output is 2 because 2 is missing in this array.  */
+            //brute forse approach for finding the missing number
+start
+sort the given array
+put a condition if element is not equal to zero than return zero i.e., the first element will always be zero after sorting otherwise it is missing.
+put a for loop from 1 to n with condition that if(number-1!=number) than return number-1.
+in last return last elment +1;
+end.
+            //Optimise solution for finding the missing number
+start
+initialize one variable with zero
+and put a for loop from 0 to n
+and xor all the elements with variable
+return the variable
+end.
